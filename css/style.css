@@ -1,0 +1,62 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/*
+    Created on : Apr 10, 2021, 2:26:09 PM
+    Author     : Samodra
+*/
+
+body {
+    background: url(../images/bg-2.png);
+}
+
+.box-container {
+    display: flex;
+    width: 100%;
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.box {
+    display: flex;
+    width: 50%;
+    height: 50%;
+    box-shadow: 5px 5px 15px 1px rgba(0, 0, 0, 0.1);
+}
+
+.box .content {
+    color: #2B4EA2;
+}
+
+.bg-blue {
+    background-color: #2B4EA2;
+}
+
+.text-bold-content {
+    color: #2B4EA2;
+    font-weight: bold;
+}
+
+.box .content {
+    padding: 80px;
+    flex: 80%;
+    background-color: #f8f8f8;
+}
+
+.box .content p {
+    margin-top: 40px;
+    font-size: 1.2em;
+}
+
+.image {
+    width: 100%;
+    background: url(../images/image.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
